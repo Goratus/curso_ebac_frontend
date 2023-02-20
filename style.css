@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.primeiro{
+    background-color: rgb(20, 104, 231);
+}
+
+header{
+    padding: 16px 0;
+}
+
+header h1{
+    color: aliceblue;
+}
+
+header.primeiro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    padding-bottom: 15px;
+}
+
+header li,a{
+    display: inline ;
+    background-color:rgb(37, 37, 184);
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.articles article a{
+    background-color: rgb(105, 105, 116);
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.containers {
+    width: 1366px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.articles{
+   display: flex;
+
+}
+
+.articles article img{
+    /*height: 220px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+    padding: 0 50px;
+}
+
+.articles article h3, p{
+    padding: 10px 0px;
+}
+
+section {
+    padding: 16px 0
+}
+
+.containers #sports .articles article a:hover {
+    background-color: green;
+    color: black;
+    text-decoration: underline;
+}
+
+.containers #economy .articles article a:hover {
+    background-color:gold;
+    color: black;
+    text-decoration: underline;
+}
+
+.containers #Tech .articles article a:hover {
+    background-color:purple;
+    color: white;
+    text-decoration: underline;
+}
+
+.containers #entreternimento .articles article a:hover {
+    background-color:orange;
+    color:black;
+    text-decoration: underline;
+}
+
+header a:hover{
+    background-color: rgb(214, 147, 22) ;
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#sports {
+    background-color: rgba(30, 177, 30, 0.356);
+}
+
+#economy {
+    background-color: rgba(255, 217, 0, 0.418);
+}
+
+#Tech {
+    background-color: rgba(132, 0, 255, 0.418);
+}
+
+#entreternimento {
+    background-color: rgba(255, 166, 0, 0.479);
+}
