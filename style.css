@@ -22,6 +22,10 @@ header.primeiro{
     justify-content: space-between;
 }
 
+header.primeiro h1{
+    padding-left: 18px;;
+}
+
 h2 {
     padding-bottom: 15px;
 }
@@ -43,10 +47,46 @@ header li,a{
     
 }
 
+#sports .articles a{
+    background-color: rgb(21, 94, 15);
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#economy .articles a{
+    background-color: rgb(199, 97, 14);
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#economy .articles a{
+    background-color: rgb(199, 97, 14);
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#entreternimento .articles a{
+    background-color: rgb(15, 73, 161);
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
 .containers {
-    width: 1366px;
+    width: auto;
     margin: 0px;
     padding: 0px;
+}
+
+.containers h2{
+    padding: 0 50px;
 }
 
 .articles{
@@ -57,6 +97,7 @@ header li,a{
 .articles article img{
     /*height: 220px;*/
     width: 100%;
+    padding-top: 15px;
 }
 
 .articles article {
